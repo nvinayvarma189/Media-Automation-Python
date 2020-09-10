@@ -1,6 +1,6 @@
 # Lyrics-on-wheels
 
-## Introduction
+## Motive
 I was surfing YouTube one day and I came across a few lyrical videos of famous songs.
 
 - [Sorry](https://www.youtube.com/watch?v=rBistsB7pNU)
@@ -9,11 +9,11 @@ I was surfing YouTube one day and I came across a few lyrical videos of famous s
 - [Sugar](https://www.youtube.com/watch?v=48VSP-atSeI)
 - [Love Yourself](https://www.youtube.com/watch?v=TMSIR210mRg)
 
-**All these lyrical videos are unofficial, yet they have millions of views!!**
+**All these lyrical videos are from unofficial channels, yet they have millions of views!!**
 
-I was lazy and did not think I would enjoy creating lyrical videos manually (using tools like Premier Pro). So I felt I could automate this process of content creation and get millions of views as well. :wink:
+Ediitng lyrical videos is time consuming for beginners(using tools like Premier Pro). I wanted to see if I can automate this process. :wink:
 
-I came across the [MoviePy](https://pypi.org/project/moviepy/) python library which is used to create, trim, and edit videos. Thanks to the amazingly talented [Zulko](https://github.com/Zulko) for creating the library.
+I came across the [MoviePy](https://pypi.org/project/moviepy/) python library which is used to create, trim, and edit videos. Thanks to the amazing [Zulko](https://github.com/Zulko) for creating the library.
 
 ## Built With
 
@@ -31,11 +31,11 @@ I came across the [MoviePy](https://pypi.org/project/moviepy/) python library wh
 
 If you are having any trouble, try again after installing the [optional dependencies](https://github.com/Zulko/moviepy#optional-but-useful-dependencies) as well.
 
-**Note:** You might need to exceute `sudo python3 lyrics.py` (basically admin mode) based on your user permissions and system configuration because of the PyGame dependency.
+**Note:** You might need to exceute `sudo python3 lyrics.py` based on your user permissions and system configuration because of the `PyGame` dependency.
 
 ## What can be improved
 
-Initilay, I tried to extract lyrics directly from the song so that the song will be the only input for the script. After some basic research on lyric extraction models, I felt that the accuracy wasn't good enough which would enable complete automation. The amount of accuracy I could get did not balance the amount of complexity that is being added. 
+Initilay, I tried to extract lyrics directly from the song so that the song will be the only required input for the script. After some basic research on lyrics extraction models, I felt that the accuracy wasn't good enough which would enable complete automation. The accuracy I could get did not balance the amount of complexity that is being added. 
 
 So I used [LRCGenerator](https://lrcgenerator.com/), which is an amazing tool to create lrc files for any song. It only takes as much time as the duration time of your song.
 
@@ -57,6 +57,6 @@ If you have any issues, questions, or ideas to improve this, please feel free to
 
 When I was about to upload the generated video to YT, I came across copyright infringement rules for music videos. You can read about it from this [quora answer](https://www.quora.com/Can-I-make-money-from-lyrics-videos-on-YouTube) (also please read answers from other related questions as well).
 
-Even though there are some tricks to avoid copyright infringement, after going through the quora answers, it did not feel right for me to upload something which is 90% someone else's work (music, lyrics, etc). Music producers get their music copyrighted for a reason. So I just refrained myslef from uploading. But this was still something fun to build. :)
+Even though there are some tricks to avoid copyright infringement, after going through the quora answers, it did not feel right to me to upload something which is 90% someone else's work (music, lyrics, etc). Music producers get their music copyrighted for a reason. So I just refrained myslef from uploading. But this was still something fun to work on. :)
 
 In case you want to upload such content online, please make sure you understnad the potential complications as well. Cheers!!
